@@ -520,8 +520,9 @@ set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false
 namespace TypedTriangle.Applications.Latin.TwoScale
 
-/-- Two Latin squares with the same prescribed statistics and the same eight coarse blocks,
-whose intercalate counts are close to `κ(θ,0) n²` and `κ(θ,t) n²`. -/
+/-- Two Latin squares, each of which separately approximates the same prescribed statistics and
+the same eight coarse-block targets up to `εn²` (their own values need not coincide), whose
+intercalate counts are close to `κ(θ,0) n²` and `κ(θ,t) n²`. -/
 theorem latin_two_scale_with_blocks (θ t ε : ℝ) (q : ℕ)
     (hθ : 0≤θ) (hθ1 : θ<1) (ht : 0≤t) (ht1 : t<1) (hε : 0<ε) :
     ∃ N : ℕ, 12≤N ∧ ∀ (A : Type) [Fintype A], N≤Fintype.card A →

@@ -16,7 +16,7 @@ Palomar registry. The manuscript and the original archive
 | `TypedTriangle.Applications.Latin.latin_square_with_profile_statistics` | **Theorem 8.1.** Latin squares with a bounded stochastic profile, prescribed statistics and Pasch count. |
 | `TypedTriangle.Applications.Latin.uniform_with_intercalates` | **Corollary 8.2.** The uniform profile, with about `(m−1)³/(4m)` intercalates. |
 | `TypedTriangle.Applications.Latin.signed_profile_with_intercalates` | **Corollary 8.3.** Signed rank-one profiles and their intercalate targets. |
-| `TypedTriangle.Applications.Latin.TwoScale.latin_two_scale_with_blocks` | **Theorem 8.4.** Two Latin squares with the same statistics and coarse blocks and intercalate counts near `κ(θ,0) m²` and `κ(θ,t) m²`. |
+| `TypedTriangle.Applications.Latin.TwoScale.latin_two_scale_with_blocks` | **Theorem 8.4.** Two Latin squares, each within `εm²` of the same prescribed statistics and the same eight coarse-block targets (separately; their own values need not coincide), with intercalate counts near `κ(θ,0) m²` and `κ(θ,t) m²`. |
 | `TypedTriangle.Applications.FivePartite.main_theorem` | **Corollary 8.5.** Rainbow decompositions of `K_{s,s,s,s,s}` (`s = 3|A|`) with prescribed statistics and Pasch count. |
 
 ## The hypotheses of Theorem T

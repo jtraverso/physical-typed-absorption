@@ -17,8 +17,9 @@ project:
     are within eta n^2 of their values under the seed. Applications: Latin squares following a
     bounded stochastic profile with prescribed statistics and Pasch count (Theorem 8.1), the
     uniform and signed rank-one profiles with their intercalate counts (Corollaries 8.2 and 8.3),
-    two Latin squares with the same statistics and coarse blocks and different intercalate counts
-    (Theorem 8.4, m divisible by four), and the balanced complete five-partite graph with parts
+    two Latin squares each of which separately approximates, up to eps m^2, the same prescribed
+    statistics and the same eight coarse-block targets (their own values need not coincide), with
+    intercalate counts near different targets (Theorem 8.4, m divisible by four), and the balanced complete five-partite graph with parts
     of size 3|A| and rainbow triangles (Corollary 8.5). Seven statements. All thresholds are
     existential; the explicit tower bound of Section 7 is not compared.
   authors:
