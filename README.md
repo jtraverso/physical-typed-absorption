@@ -49,7 +49,8 @@ Theorem 13.16 is neither imported nor assumed.
   `audit/`: the source supplement, **byte-identical** to the published archive (1,141 project
   modules, including the vendored sources of Papers I–II and of Ehard–Glock–Joos).
 - `supplement/`: the archive's own `README.md`, `lakefile.toml`, `SHA256SUMS.txt`,
-  `source_closure.json` and `verify_sha256.py`. Only the top-level `lakefile.toml` differs from
+  `source_closure.json` and `verify_sha256.py`, and its `audit/closure-audit.lean` (a
+  `#print axioms` script outside the module system) as `closure-audit.lean.txt`. Only the top-level `lakefile.toml` differs from
   the archive (it adds the Challenge and Solution libraries); `lake-manifest.json`,
   `lean-toolchain` and `LICENSE` are unchanged. `python verify_supplement.py` checks every file
   of the archive's SHA-256 list against this repository.
