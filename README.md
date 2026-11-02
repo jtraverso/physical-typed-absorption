@@ -50,8 +50,11 @@ Theorem 13.16 is neither imported nor assumed.
   modules, including the vendored sources of Papers I–II and of Ehard–Glock–Joos).
 - `supplement/`: the archive's own `README.md`, `lakefile.toml`, `SHA256SUMS.txt`,
   `source_closure.json` and `verify_sha256.py`, and its `audit/closure-audit.lean` (a
-  `#print axioms` script outside the module system) as `closure-audit.lean.txt`. Only the top-level `lakefile.toml` differs from
-  the archive (it adds the Challenge and Solution libraries); `lake-manifest.json`,
+  `#print axioms` script outside the module system) as `closure-audit.lean.txt`. Only the
+  top-level `lakefile.toml` differs from the archive: it adds the Challenge and Solution
+  libraries and raises `maxHeartbeats` to 1,600,000, because the archive was assembled with
+  validated object reuse and a build from an empty cache exceeds the default limit in some
+  modules. `lake-manifest.json`,
   `lean-toolchain` and `LICENSE` are unchanged. `python verify_supplement.py` checks every file
   of the archive's SHA-256 list against this repository.
 - [`comparator.json`](comparator.json), [`formalization.yaml`](formalization.yaml).
