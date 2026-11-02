@@ -3,6 +3,12 @@ version = "1.0.0"
 requiresModuleSystem = true
 defaultTargets = ["PaperIIIChallenge", "PaperIIISolution"]
 
+# The archive was assembled with validated object reuse; a build from an empty cache exceeds the
+# default heartbeat limit in some modules (e.g. CorePaidWindow, VortexReservedTerminalPartition).
+# Raising the limit here keeps every source file byte-identical.
+[leanOptions]
+maxHeartbeats = 1600000
+
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
