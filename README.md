@@ -52,9 +52,10 @@ Theorem 13.16 is neither imported nor assumed.
   `source_closure.json` and `verify_sha256.py`, and its `audit/closure-audit.lean` (a
   `#print axioms` script outside the module system) as `closure-audit.lean.txt`. Only the
   top-level `lakefile.toml` differs from the archive: it adds the Challenge and Solution
-  libraries and raises `maxHeartbeats` to 1,600,000, because the archive was assembled with
-  validated object reuse and a build from an empty cache exceeds the default limit in some
-  modules. `lake-manifest.json`,
+  libraries, raises `maxHeartbeats` to 1,600,000 and includes the root module
+  `PartitionedTriangleAbsorption` in its library (the glob `.*` instead of `.+`), because the
+  archive was assembled with validated object reuse and a build from an empty cache exceeds the
+  default limit in some modules and needs that root (imported by `Stage2`). `lake-manifest.json`,
   `lean-toolchain` and `LICENSE` are unchanged. `python verify_supplement.py` checks every file
   of the archive's SHA-256 list against this repository.
 - [`comparator.json`](comparator.json), [`formalization.yaml`](formalization.yaml).

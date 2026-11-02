@@ -20,7 +20,7 @@ globs = ["RequestProject.+"]
 
 [[lean_lib]]
 name = "PartitionedTriangleAbsorption"
-globs = ["PartitionedTriangleAbsorption.+"]
+globs = ["PartitionedTriangleAbsorption.*"]
 
 [[lean_lib]]
 name = "PaperIIIChallenge"
