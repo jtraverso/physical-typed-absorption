@@ -1,0 +1,24 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:29:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.liftVertexSet_triple`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:195:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:196:19: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:211:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:211:33: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:216:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeTransport.lean:216:33: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

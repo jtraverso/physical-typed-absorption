@@ -1,0 +1,13 @@
+@TypedTriangle.Vortex.main_theorem_T : ∀ {I : Type} (F : Set (Multiset I)) (αOriginal C : ℝ) (hOriginal : ℕ),
+  0 < αOriginal →
+    1 ≤ C →
+      6 ≤ hOriginal →
+        ∃ n₀,
+          ∀ {X : Type} [inst : Fintype X] (H : TypedTriangle.Host X I),
+            n₀ ≤ Fintype.card X →
+              (∃ μ, TypedTriangle.IsDiffuseSeed H F C μ) →
+                TypedTriangle.IsPhysical H F (TypedTriangle.edges H) →
+                  TypedTriangle.CommonNbrCond H F αOriginal →
+                    TypedTriangle.HingeCond H F αOriginal hOriginal →
+                      ∃ D, TypedTriangle.IsDecomposition H F (TypedTriangle.edges H) D
+'TypedTriangle.Vortex.main_theorem_T' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RootErasureTransport.lean:42:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.link_root_isolated`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

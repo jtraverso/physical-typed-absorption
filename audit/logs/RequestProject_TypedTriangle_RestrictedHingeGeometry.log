@@ -1,0 +1,12 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeGeometry.lean:47:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeGeometry.lean:47:34: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeGeometry.lean:50:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\RestrictedHingeGeometry.lean:50:34: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

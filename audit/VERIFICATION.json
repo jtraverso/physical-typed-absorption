@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "date": "2026-11-01",
+  "project_modules": 1141,
+  "comment_only_modules_recompiled": 15,
+  "unchanged_modules_reused": 1126,
+  "endpoint_audits": [
+    {
+      "audit": "main-paper-iii-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "3b54b4ff139f437250f9859a1c0e22187eea5c20ab9c47dc9c41d36b34612d4b",
+      "exit_code": 0
+    },
+    {
+      "audit": "main-paper-iii-pasch-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "77b3b67c0c1812639e6871a9fc3d89f4ddcf8c78e669538322fb9ed9af741507",
+      "exit_code": 0
+    },
+    {
+      "audit": "main-paper-iii-triangle-tower-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "9315f10f9be554ec1d020e0beac5705926619c4377487b4e031ef3d0a33d6e71",
+      "exit_code": 0
+    },
+    {
+      "audit": "paper-iii-applications-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "1ac075ec6f335b26fd25f63d38b4168fe98d9424404c662df657807b216a6940",
+      "exit_code": 0
+    },
+    {
+      "audit": "hybrid-deficit-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "3b486075e8beb224ca3ed173dc4b50831cf9851a7bf0b592d12934044e6d224d",
+      "exit_code": 0
+    },
+    {
+      "audit": "closure-audit",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "log_sha256": "6166d3d573e627805be01554cac0da03ad4faa26d5cf89cb7c18889de03d1f11",
+      "exit_code": 0
+    }
+  ],
+  "standard_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "original_source_manifest_sha256": "71d44179637d096e9a3ffb3eb4c166af363f4b0603bd89ccf64261212cde55ae",
+  "original_complete_build_report_sha256": "4bba53e99d073a9fb1654541331cac712dea80f0ad4771698aca53a3299773f7",
+  "source_closure_sha256": "40b3ae41f2cef338876e0ccb57c7390732adb42c03b7e5b23508ed388ba06310",
+  "fresh_empty_cache_build": false
+}

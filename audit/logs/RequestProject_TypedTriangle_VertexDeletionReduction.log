@@ -1,0 +1,8 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexDeletionReduction.lean:84:28: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexDeletionReduction.lean:111:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲

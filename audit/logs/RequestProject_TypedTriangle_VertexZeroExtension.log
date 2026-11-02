@@ -1,0 +1,63 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:35:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.liftVertexSet_injective`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:38:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.mem_liftVertexSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:48:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.liftVertexSet_avoids`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:55:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.card_liftVertexSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:63:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.lift_subtypeVertexSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:67:0: warning: automatically included section variable(s) unused in theorem `TypedTriangle.labels_liftVertexSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:132:6: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:148:6: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:155:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:156:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:157:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\RequestProject\TypedTriangle\VertexZeroExtension.lean:189:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲

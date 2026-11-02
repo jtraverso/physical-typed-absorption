@@ -1,0 +1,10 @@
+'TypedTriangle.Completion.HybridDeficit.aggregate_data_do_not_force_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Completion.HybridDeficit.full_deficit_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Completion.HybridDeficit.moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Completion.HybridDeficit.normalization_closes_from_weighted_reserve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

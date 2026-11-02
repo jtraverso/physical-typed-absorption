@@ -1,0 +1,20 @@
+{
+  "challenge_module": "PaperIIIChallenge",
+  "solution_module": "PaperIIISolution",
+  "theorem_names": [
+    "TypedTriangle.Vortex.main_theorem_T",
+    "TypedTriangle.Vortex.main_theorem_T_with_triangle_monitors_and_pasch",
+    "TypedTriangle.Applications.Latin.latin_square_with_profile_statistics",
+    "TypedTriangle.Applications.Latin.uniform_with_intercalates",
+    "TypedTriangle.Applications.Latin.signed_profile_with_intercalates",
+    "TypedTriangle.Applications.Latin.TwoScale.latin_two_scale_with_blocks",
+    "TypedTriangle.Applications.FivePartite.main_theorem"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

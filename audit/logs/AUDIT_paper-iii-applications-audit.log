@@ -1,0 +1,213 @@
+C:\nw\physical-typed-absorption\preprints\PAPER_III_v1.0\03_reproducibility\lean\audit\paper-iii-applications-audit.lean:108:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'TypedTriangle.Applications.FivePartite.Uniform.diffuse_uniformSeed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.FivePartite.Uniform.edgeThirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.Uniform.edgeThirds_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.FivePartite.Uniform.edge_triangle_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.FivePartite.Uniform.uniformSeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.Vertex' does not depend on any axioms
+'TypedTriangle.Applications.FivePartite.baseBlocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.baseBlocks_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.baseBlocks_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.baseBlocks_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.FivePartite.baseBlocks_pair_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.FivePartite.baseBlocks_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.block_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.coordinate' does not depend on any axioms
+'TypedTriangle.Applications.FivePartite.cyclic_part_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.edge_has_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.main_theorem_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.physical_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.FivePartite.project' does not depend on any axioms
+'TypedTriangle.Applications.Latin.LatinSquare' does not depend on any axioms
+'TypedTriangle.Applications.Latin.LatinSquare.add' depends on axioms: [propext]
+'TypedTriangle.Applications.Latin.LatinSquare.cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.LatinSquare.transport' depends on axioms: [Quot.sound]
+'TypedTriangle.Applications.Latin.Vertex' does not depend on any axioms
+'TypedTriangle.Applications.Latin.additive_isPhysical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.allowed_eq_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.allowed_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_distinctPairSum_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_distinctPairSum_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_distinctPairSum_product_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_distinctPairSum_scaled_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_distinctPairSum_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_signedBoxSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.balanced_signed_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.card_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.card_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.configurations_decomposition_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.count_decomposition_eq_intercalates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.cyclic_isPhysical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.decomposition_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.decomposition_ofDecomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.diffuse_of_marginals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.diffuse_of_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum_mul_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum_mul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.distinctPairSum_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge01_load' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge01_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge02_load' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge02_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge12_load' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.edge12_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.encodeCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.encodeCells_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.encodeCells_mem_configurations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.encode_intercalateCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.eq_symbol_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.exists_unique_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.four_mul_count_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.four_mul_signed_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.four_mul_target_eq_rooted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.half_profile_with_intercalates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.host' does not depend on any axioms
+'TypedTriangle.Applications.Latin.intercalateCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.intercalates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.intercalatesEquivPasch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.isDecomposition_iff_latinSquare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.isPasch_rooted_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.latinPasch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinPasch_isPasch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinPasch_rooted_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.latinTriangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinTriangle_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinTriangle_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinTriangle_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.latinTriangle_mem_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.latin_square_with_profile_statistics' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.latin_square_with_uniform_statistics' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.mem_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.mem_intercalates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.mem_latinTriangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.mem_rootedAlternatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.ofDecomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.prod_latinPasch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.profileConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.profileConstant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.root_first_sum_eq_pair_sums' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.rootedAlternatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.rootedAlternatives_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.rootedCount_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.rooted_configurations_eq_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.rooted_target_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signedBoxSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signedProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signedProfile_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signedProfile_diffuse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signedProfile_marginals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signed_parity_box_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.signed_profile_with_intercalates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.sum_allowed_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.sum_decomposition_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.sum_rootedCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.symbol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.symbol_column_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.symbol_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.symbol_row_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.target_congr_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.target_constant_eq_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.types' depends on axioms: [propext, Quot.sound]
+'TypedTriangle.Applications.Latin.uniform_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.uniform_target_choose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.uniform_weight_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.uniform_with_intercalates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.weight_exact_marginals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Latin.weight_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.card_support_coreImage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Octahedron.core' depends on axioms: [propext, Quot.sound]
+'TypedTriangle.Applications.Octahedron.coreImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.core_avoids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.core_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.edge_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.edge_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.hinge_of_modes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.mode_card_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.mode_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.mode_pairwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Octahedron.support_coreImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.allowed_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.commonNbrCond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.commonNbrs_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.hingeCond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.hinges_six_card_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Applications.Rainbow.host' does not depend on any axioms
+'TypedTriangle.Applications.Rainbow.host_adj' does not depend on any axioms
+'TypedTriangle.Applications.Rainbow.host_lab' does not depend on any axioms
+'TypedTriangle.Applications.Rainbow.mem_types' depends on axioms: [propext, Quot.sound]
+'TypedTriangle.Applications.Rainbow.types' depends on axioms: [propext, Quot.sound]
+'TypedTriangle.Applications.exists_balanced_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TypedTriangle.Examples.RainbowRetention.Vertex' does not depend on any axioms
+'TypedTriangle.Examples.RainbowRetention.cannot_retain_old_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Examples.RainbowRetention.oldEdges' depends on axioms: [propext, Classical.choice, Quot.sound]

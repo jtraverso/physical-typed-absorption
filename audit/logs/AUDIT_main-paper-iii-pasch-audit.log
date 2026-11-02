@@ -1,0 +1,27 @@
+@TypedTriangle.Vortex.main_theorem_T_with_triangle_monitors_and_pasch : ∀ {I : Type} (F : Set (Multiset I))
+  (αOriginal C η : ℝ) (hOriginal qStat : ℕ),
+  0 < αOriginal →
+    1 ≤ C →
+      6 ≤ hOriginal →
+        0 < η →
+          ∃ n₀,
+            ∀ {X : Type} [inst : Fintype X] (H : TypedTriangle.Host X I) (μ : Finset X → ℝ),
+              n₀ ≤ Fintype.card X →
+                TypedTriangle.IsDiffuseSeed H F C μ →
+                  TypedTriangle.IsPhysical H F (TypedTriangle.edges H) →
+                    TypedTriangle.CommonNbrCond H F αOriginal →
+                      TypedTriangle.HingeCond H F αOriginal hOriginal →
+                        ∀ (ν : Type) [inst_1 : Fintype ν] (w : ν → Finset X → ℝ),
+                          ↑(Fintype.card ν) ≤ ↑(Fintype.card X) ^ qStat →
+                            (∀ (k : ν) (Q : Finset X), TypedTriangle.IsAllowed H F Q → |w k Q| ≤ 1) →
+                              ∃ D,
+                                TypedTriangle.IsDecomposition H F (TypedTriangle.edges H) D ∧
+                                  (∀ (k : ν),
+                                      |∑ Q ∈ D, w k Q - ∑ Q ∈ TypedTriangle.allowed H F, μ Q * w k Q| ≤
+                                        η * ↑(Fintype.card X) ^ 2) ∧
+                                    |↑(TypedTriangle.Pasch.count D) -
+                                          TypedTriangle.Pasch.target μ (TypedTriangle.allowed H F)| ≤
+                                      η * ↑(Fintype.card X) ^ 2
+'TypedTriangle.Vortex.main_theorem_T_with_triangle_monitors_and_pasch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

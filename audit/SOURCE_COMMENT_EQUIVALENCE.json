@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "scope": "Every changed source has exactly identical text outside Lean comments. Original build evidence is retained unchanged.",
+  "original_manifest_sha256": "71d44179637d096e9a3ffb3eb4c166af363f4b0603bd89ccf64261212cde55ae",
+  "modules": 1141,
+  "changed": [
+    {
+      "module": "RequestProject.TypedTriangle.RootErasureTransport",
+      "path": "RequestProject/TypedTriangle/RootErasureTransport.lean",
+      "before_sha256": "82b85b7eff6090537aaf32473e3abe42abec56313062a6f25537d3c4e31848fd",
+      "after_sha256": "f3129f076d9cfa5344dcfea1fd4f9362bbb3f4b109266ee31232c9b63de6c569",
+      "noncomment_text_sha256": "d5cac7bdc788a7affc45cc89875a98cec4700cdecbe08bb66cc7ef627e16fc97"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.SparseEdgeHost",
+      "path": "RequestProject/TypedTriangle/SparseEdgeHost.lean",
+      "before_sha256": "0963e7f2c4451c941c72c56a477cf4f6730f34d97cc136501890b5fc5d0a84e5",
+      "after_sha256": "c208887d0dcca26c5b8dde22d094f58df73e3830ce870aab748edfd2a56d8be5",
+      "noncomment_text_sha256": "19410315b67e31854bd09f6abb440e1308ead6e1dc8d4af0e2a31a477aa182f5"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.UniformCompression",
+      "path": "RequestProject/TypedTriangle/UniformCompression.lean",
+      "before_sha256": "19a88dadfb6156352b2b01fb954c01ee1d52a8dc813c593604f104dc81a0e809",
+      "after_sha256": "075f52ff0efd4bee54a3ab5119391622435f6f318069cd49cbd9fd55ee585257",
+      "noncomment_text_sha256": "d214d9a1b74b90085d9c3f99fcad4cbb47cec02741975e39c18a766015450b4b"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.VertexZeroExtension",
+      "path": "RequestProject/TypedTriangle/VertexZeroExtension.lean",
+      "before_sha256": "fb222f7f1299f244f637d6a74c75f4bd3a34209e4fa815f690420d83589de04f",
+      "after_sha256": "30df56c0698771227cbe3029db1c050be129a93f46b9ae5c3567ee81f5b73561",
+      "noncomment_text_sha256": "c6e4db8c4de1d8d82da944a5b16eb47897bb1a07ca6835eaabf37c91e87b610a"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedHostGeometry",
+      "path": "RequestProject/TypedTriangle/RestrictedHostGeometry.lean",
+      "before_sha256": "384bbd7f5ba0721aed0d328410e5ae2aed6b2992270127401ab3ec974702e994",
+      "after_sha256": "3a7d2b6952994a37ca2c1634b0ec6a5592ae5275ac529c62f65fd7c1feeaf709",
+      "noncomment_text_sha256": "eead96823578df039353cfb54aed618897f7c194d38c8b13032fb1ebf91dbe54"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.VertexDeletedQuotient",
+      "path": "RequestProject/TypedTriangle/VertexDeletedQuotient.lean",
+      "before_sha256": "8e2b9252c70b6cd18da8bcb7c065a92dc28ebb625ef5c2237a7f3be9e46a4100",
+      "after_sha256": "7679da1f71d4190ba96d935819d7d4d57e44437525cbae1f227c7c1ea9665cc6",
+      "noncomment_text_sha256": "cc3fed711d6b242af8eba72995b84643c24f5bffb602bfcbf5f82ebad9d6a3e0"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.VertexDeletionReduction",
+      "path": "RequestProject/TypedTriangle/VertexDeletionReduction.lean",
+      "before_sha256": "763cac89f773817d82b273218fab52299408b37650589cba16ba35f4126739c6",
+      "after_sha256": "5778fccfe3367022fbc89fc9d870d1677f3d2349ff51b73215d3cc515bcea306",
+      "noncomment_text_sha256": "d12c61a77f0d249eeb31e43006e1ff97481e82231cff45e8a113e2b069602751"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.PhysicalQuotientBounds",
+      "path": "RequestProject/TypedTriangle/PhysicalQuotientBounds.lean",
+      "before_sha256": "59ceb8b15b79916c5506ae8836f1a652abda49703042c38ec656452a70a4a08d",
+      "after_sha256": "8d652e952618cb0b510253141a69b48d65c68615fe95eb089e7fcee5e917f33f",
+      "noncomment_text_sha256": "e432d8810a1fb0271f13ffbd019f93e3c913b0284908bff101629da35e612858"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.VertexFirstEntry",
+      "path": "RequestProject/TypedTriangle/VertexFirstEntry.lean",
+      "before_sha256": "f571b7136b9764d5f745782806cf3e4679168624710ca73f28d2efc9b367bd05",
+      "after_sha256": "0d9d5b1a9cd24100d5a76ee0ea3c6e8e2019f0b75572de2af182ee7608724fdc",
+      "noncomment_text_sha256": "876510b26eae6a8567fdc50ae06f429f798f2a16b64ddda1be31641e6c66252d"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.UniformVertexChains",
+      "path": "RequestProject/TypedTriangle/UniformVertexChains.lean",
+      "before_sha256": "fb2ec54557351e7444bd205bee3fa867b0dc59de4eeae0e0a36b6cdfc129e665",
+      "after_sha256": "052dbcbe284c189bd4fb2aff396ab54e36fbd790cb6871cddf2b69dc594a1e21",
+      "noncomment_text_sha256": "f0483ad586c25be91fe2daec85b22f709768e8ea98d7d268283d16e00a1e9dd4"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedVertexBounds",
+      "path": "RequestProject/TypedTriangle/RestrictedVertexBounds.lean",
+      "before_sha256": "39d475c29090bb8752833de8a48a3a6ffeb1657b23665da479192557e54f5ec4",
+      "after_sha256": "f5907426ab44189089cea2479c47f9a5dae87948a5fdad7563039e5720c89b79",
+      "noncomment_text_sha256": "94a46e055029abf91c27392b7867c6861df498ba950e1a8440286be13f450ad7"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedHingeGeometry",
+      "path": "RequestProject/TypedTriangle/RestrictedHingeGeometry.lean",
+      "before_sha256": "7f787c19cf51a6a0c32b39ee2416ec27dfeaa08466710b5abdb7ecd203906519",
+      "after_sha256": "47dc2b8fa5b15efd18886e8a6aec7ce382ab2988f813a5bdd1d625417acb36e8",
+      "noncomment_text_sha256": "484176a1fb77dec10d2657fc585de77b0a7932bf593c30c670dae6e4982e2a7a"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedHingeTransport",
+      "path": "RequestProject/TypedTriangle/RestrictedHingeTransport.lean",
+      "before_sha256": "9d76aba133adbbb34019fa169debc9b44fb96385be570d15bae47d1bb37a2935",
+      "after_sha256": "20b9428143019302ea89c943f5d95ce838dc8d0082c6e9cbece699febaee4f87",
+      "noncomment_text_sha256": "1160068ebe21306f8dd2230e8f67b576a5db361141cf788097018c5c3f9c668b"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedQuotientTransport",
+      "path": "RequestProject/TypedTriangle/RestrictedQuotientTransport.lean",
+      "before_sha256": "51d8a111a498a598c8cbde0e43b1ca4878a4972e870bda8ef9c866eb16160142",
+      "after_sha256": "a3b71e87d0a962ba10ef2e2ac15e0e85fb8607ccc99b3bbfe68c99569ca6f818",
+      "noncomment_text_sha256": "674bb315584867f3e32732bf98dd35abc05b536bd44652154b829e2c7421cef4"
+    },
+    {
+      "module": "RequestProject.TypedTriangle.RestrictedLocalGroup",
+      "path": "RequestProject/TypedTriangle/RestrictedLocalGroup.lean",
+      "before_sha256": "8ea5d6bcc33f1c80abcce54178c1f25eff65e199cafc51115e6ddc9987419a36",
+      "after_sha256": "bcfd725f9b09607f7b80e38849c1b5ebb87214c88ed36bfc6c3379c58326f3c7",
+      "noncomment_text_sha256": "243c08f5a2ed9dd71bd7fceb74b11b9e8709ed2f2f39d5bd120f1dfbe80cc526"
+    }
+  ]
+}

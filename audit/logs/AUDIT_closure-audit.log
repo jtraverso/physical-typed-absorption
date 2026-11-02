@@ -1,0 +1,16 @@
+'TypedTriangle.Applications.Latin.TwoScale.latin_two_scale_with_blocks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.TwoScale.two_scale_latin_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.TwoScale.two_scale_target_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.TwoScale.exists_signs_for_linear_forms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.Applications.Latin.TwoScale.intercalate_gap_of_targets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TypedTriangle.PrintedHeight.height_agrees' depends on axioms: [propext, Quot.sound]

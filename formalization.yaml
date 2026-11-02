@@ -1,0 +1,154 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Triangle decompositions III: physical typed absorption and prescribed statistics"
+  description: >-
+    The Lean source supplement of Paper III of the Nash-Williams series (preprint 1.0), packaged
+    with a Mathlib-only Challenge. Theorem T: for fixed labels I, allowed label multisets F and
+    constants alpha > 0, C >= 1, h >= 6, every labelled graph of order at least n0 that has an
+    exact diffuse fractional triangle seed of constant C (H1), whose edge indicator lies in the
+    integer lattice spanned by its allowed triangles (H2), with at least alpha n common
+    neighbours labelled k for every pair of distinct vertices and every label k completing an
+    allowed type (H3), and at least alpha n^(i-4) physical hinges of some order
+    6 <= i <= h for every pair of allowed triangles on a common edge (H4), has an allowed
+    triangle decomposition. Theorem T+: for every eta > 0 and q the decomposition can moreover be
+    chosen so that every family of at most n^q triangle tests bounded by 1, and the Pasch count,
+    are within eta n^2 of their values under the seed. Applications: Latin squares following a
+    bounded stochastic profile with prescribed statistics and Pasch count (Theorem 8.1), the
+    uniform and signed rank-one profiles with their intercalate counts (Corollaries 8.2 and 8.3),
+    two Latin squares with the same statistics and coarse blocks and different intercalate counts
+    (Theorem 8.4, m divisible by four), and the balanced complete five-partite graph with parts
+    of size 3|A| and rainbow triangles (Corollary 8.5). Seven statements. All thresholds are
+    existential; the explicit tower bound of Section 7 is not compared.
+  authors:
+    - "Juan Pablo Traverso Gianini"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Juan Pablo Traverso Gianini"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C70", "05B15", "05C35"]
+
+sources:
+  - title: "Triangle decompositions III: Physical typed absorption and prescribed statistics"
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "doi:10.5281/zenodo.23867836"
+    type: "preprint"
+    location: "Preprint 1.0, 1 November 2026; Theorems T, T+, 8.1, 8.4 and Corollaries 8.2, 8.3, 8.5"
+    relationship: "formalizes"
+    note: >-
+      Author's published preprint 1.0. The Lean sources are those of the published source
+      supplement archives/PAPER_III_LEAN_SOURCE_v1.0.zip of
+      jtraverso/nash-williams-triangle-decompositions-release, byte-identical; the general
+      theorems are proved only in Lean, the manuscript explains their construction and proves
+      the applications.
+    license: "CC-BY-4.0"
+    author_endorsement: "participated"
+  - title: "A Proof of Nash-Williams' Conjecture"
+    authors: ["Michelle Delcourt", "Luke Postle"]
+    id: "doi:10.48550/arXiv.2606.11178"
+    type: "preprint"
+    location: "arXiv:2606.11178v1, Section 13.2: Definition 13.14 and Theorem 13.16"
+    relationship: "background"
+    note: >-
+      H3 is their anti-edgeful condition and the hinge is their Definition 13.14; H1 and H2 are
+      stronger than their hypotheses. Theorem 13.16 and the unpublished manuscript it refers to
+      are neither imported nor assumed.
+    license: "unknown"
+    author_endorsement: "not-contacted"
+  - title: "Triangle decompositions II: Robust absorption for typed triangles"
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "doi:10.5281/zenodo.23502224"
+    type: "preprint"
+    location: "Preprint 1.0, 20 October 2026"
+    relationship: "background"
+    note: "Typed absorption and signed certificates; the needed sources are vendored."
+    license: "CC-BY-4.0"
+    author_endorsement: "participated"
+  - title: "Pseudorandom hypergraph matchings"
+    authors: ["Stefan Ehard", "Stefan Glock", "Felix Joos"]
+    id: "doi:10.1017/S0963548320000280"
+    type: "paper"
+    location: "Combinatorics, Probability and Computing 29 (2020), Theorem 1.2"
+    relationship: "background"
+    note: "Proved in the vendored sources (registered separately as PALOMAR-2026-10-17-000004)."
+    license: "unknown"
+    author_endorsement: "not-contacted"
+
+related_formalizations:
+  - id: "PALOMAR-2026-10-21-000009 (jtraverso/nash-williams-lean)"
+    relationship: "builds-on"
+    note: "Paper I of the series; shared frozen sources are vendored, not imported."
+  - id: "PALOMAR-2026-10-23-000013 (jtraverso/typed-triangle-absorption)"
+    relationship: "builds-on"
+    note: "Paper II of the series; shared frozen sources are vendored, not imported."
+  - id: "PALOMAR-2026-10-17-000004 (jtraverso/pseudorandom-hypergraph-matchings)"
+    relationship: "builds-on"
+    note: "Ehard–Glock–Joos Theorem 1.2; a copy is part of the vendored sources."
+
+status:
+  scope: >-
+    Seven compared statements: Theorem T, Theorem T+ with triangle statistics and the Pasch
+    count, Theorem 8.1, Corollaries 8.2 and 8.3, Theorem 8.4 and Corollary 8.5. The explicit tower
+    threshold of Theorem 7.2 is proved in the sources (MainPaperIIITriangleTower) but is not
+    compared, because its threshold is a two-thousand-line integer program. For Theorem 8.4 the
+    exact finite identity (8.23) of the manuscript is a written calculation; the formal endpoint
+    uses the estimate (8.24). The Challenge reproduces the source definitions; there are no
+    opaque definition holes.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: "manual"
+      notes: "Mathematical direction, scope decisions and responsibility by the author."
+    - method: "agent"
+      models: ["Aristotle (Harmonic)", "Claude (Anthropic)", "ChatGPT/Codex (OpenAI)"]
+      framework: "Aristotle CLI and local coding assistants"
+      tool_setup: >-
+        AI systems contributed to exploring approaches, searching for counterexamples,
+        developing proofs, formalization, review and manuscript preparation. Aristotle's role was
+        not limited to translating completed proofs. Certo and Jacobian were used to explore
+        finite instances. Claude Opus 5.5 prepared this Palomar package (Challenge, Solution,
+        metadata) from the published source supplement.
+      prompting_notes: "Author-directed research and packaging instructions in Spanish."
+  notes: >-
+    The source supplement records 1,141 project compilations and six endpoint axiom audits with
+    only propext, Classical.choice and Quot.sound (audit/, supplement/). It is a reconstruction
+    with validated object reuse, not an uninterrupted build from an empty cache.
+
+fidelity:
+  divergences: >-
+    Vertex and label types live in universe 0. A host is a SimpleGraph with a labelling; allowed
+    types are multisets of three labels. Physicality (H2) is membership of the edge indicator in
+    the Z-span of the indicators of allowed triangles. The hinge condition counts physical hinges
+    as edge sets whose support has exactly i vertices, with the normalization alpha n^(i-4) for
+    four fixed roots. "Sufficiently large" is an existential threshold n0 (or N). Latin squares are
+    functions A -> A -> A with bijective rows and columns; intercalates are counted as literal
+    four-cell sets. Pasch configurations are unordered sets of four triangles.
+
+review:
+  status: "agent-reviewed"
+  reviewers: ["Claude Opus 5.5 (Anthropic), acting for the author"]
+  notes: >-
+    The Challenge definitions were copied verbatim from the source files with their options and
+    open declarations, and the statements were checked against the manuscript. No independent
+    human review of this formalization is claimed.
+
+alignment:
+  namespace: "TypedTriangle"
+  statements:
+    - {source: "Paper III, Theorem T", lean: "TypedTriangle.Vortex.main_theorem_T", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Theorem T+", lean: "TypedTriangle.Vortex.main_theorem_T_with_triangle_monitors_and_pasch", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Theorem 8.1", lean: "TypedTriangle.Applications.Latin.latin_square_with_profile_statistics", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Corollary 8.2", lean: "TypedTriangle.Applications.Latin.uniform_with_intercalates", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Corollary 8.3", lean: "TypedTriangle.Applications.Latin.signed_profile_with_intercalates", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Theorem 8.4", lean: "TypedTriangle.Applications.Latin.TwoScale.latin_two_scale_with_blocks", module: "PaperIIIChallenge", status: "proved"}
+    - {source: "Paper III, Corollary 8.5", lean: "TypedTriangle.Applications.FivePartite.main_theorem", module: "PaperIIIChallenge", status: "proved"}
+
+acknowledgements: >-
+  The Lean and Mathlib communities, and the mathematical work of Delcourt, Postle, Keevash,
+  Ehard, Glock and Joos.
